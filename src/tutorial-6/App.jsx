@@ -4,7 +4,7 @@ import Article from './components/Article';
 
 const App = () => {
   const { pathname } = window.location;
-  const arr = window.location.pathname.split('/');
+  const arr = pathname.split('/');
   const secondParam = arr[2];
 
   console.log(window.location);
